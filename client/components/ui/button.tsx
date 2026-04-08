@@ -42,7 +42,7 @@ export interface ButtonProps
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant, size, asChild = false, ...props }, ref) => {
     // We mock Slot for now if it's not installed cleanly, or we just rely on standard elements.
-    const Comp = asChild ? "div" : "button"
+    const Comp = asChild ? Slot : "button"
     return (
       <Comp
         className={cn(buttonVariants({ variant, size, className }))}
