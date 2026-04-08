@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment
+.env
+.env.backend
+.env.*
+
+# AI Related
+*.log
+final_debug.txt
+final_error_check.txt
+final_debug.py
+debug_pydantic.py
+check_env.py
+debug_out.txt
+
+# Databases
+*.sqlite3
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

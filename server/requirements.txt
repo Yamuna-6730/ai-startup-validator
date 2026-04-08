@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-dotenv
+requests
+python-multipart
+pydantic
+pydantic-settings
+httpx
+pdfplumber
+python-docx
+pytesseract
+Pillow
+anthropic
+openai
